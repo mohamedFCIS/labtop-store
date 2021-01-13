@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+    <!-- awesome font Icon Library -->
+    <script src="https://kit.fontawesome.com/2a2aa7dad5.js" crossorigin="anonymous"></script>
+
+    <!-- Css Style -->
+    <link rel="stylesheet" href="./css/login.css">
+</head>
+<body>
+    <div class="hero">
+        <div class="form-box">
+            <div class="button-box">
+                <div id="btn">
+                    <!-- to add color to the btns -->
+                </div>  
+                <button type="button" class="toggle-btn" onclick="login()">Log In</button>
+                <button type="button" class="toggle-btn"onclick="register()">Register</button>
+            </div>
+            
+            <!-- login form -->
+            <form id="loginform" class="input-group">
+
+                <input type="text" class="input-field" id="userId" placeholder="User Id"  >
+                <input type="password" class="input-field" id="pass" placeholder="Enter Password" >
+                <div id='errors-messages' >
+                </div>
+
+                <button type="submit" class="submit-btn" id="login" >Log In</button>
+
+            </form>
+            
+            <!-- registeration form -->
+            <form id="registerform" class="input-group hidden">
+                
+                <input type="text" class="input-field" id="username" placeholder="User Id" >            <!--required-->
+                <input type="email" class="input-field" id="email" placeholder="Email Id" >           <!--required-->
+                <input type="password" class="input-field" id="password" placeholder="Enter Password" >    <!--required-->
+                <div id='error-messages' >
+                </div>
+                <button type="button" class="submit-btn" id="register">Register</button>
+
+            </form>
+        </div>
+        
+    </div>
+    <script src="./js/login.js">
+    
+    </script>
+</body>
+</html>

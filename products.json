@@ -1,0 +1,68 @@
+{
+  "items": [
+    {
+      "sys": { "id": "1" },
+      "fields": {
+        "title": "MacBook Lap Top",
+        "price": 800,
+        "image": { "fields": { "file": { "url": "../images/apple3.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "2" },
+      "fields": {
+        "title": "HP Lap Top",
+        "price": 450,
+        "image": { "fields": { "file": { "url": "../images/hp5.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "3" },
+      "fields": {
+        "title": "MacBook Lap Top",
+        "price": 600,
+        "image": { "fields": { "file": { "url": "../images/apple3.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "4" },
+      "fields": {
+        "title": "lenovo Lap Top",
+        "price": 720,
+        "image": { "fields": { "file": { "url": "../images/lenovo4.jpg"} } }
+      }
+    },
+    {
+      "sys": { "id": "5" },
+      "fields": {
+        "title": "Lenovo Lap Top",
+        "price": 620,
+        "image": { "fields": { "file": { "url": "../images/lenovo8.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "6" },
+      "fields": {
+        "title": "Lenovo Lap Top",
+        "price": 230,
+        "image": { "fields": { "file": { "url": "../images/lenovo9.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "7" },
+      "fields": {
+        "title": "hp Lap Top",
+        "price": 600,
+        "image": { "fields": { "file": { "url": "../images/hp5.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "8" },
+      "fields": {
+        "title": "Dell Lap Top",
+        "price": 120,
+        "image": { "fields": { "file": { "url": "./images/dell6.jpg" } } }
+      }
+    }
+  ]
+}
